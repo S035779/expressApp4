@@ -1,11 +1,28 @@
 {
-  "name": "xxxxxxxxxxxxxxxxxxxx",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "express-sample-code4",
+  "version": "0.0.1",
+  "description": "Express MVC sample code #4.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mamoru Hashimoto",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-session": "^1.13.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S035779/expressApp4.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/S035779/expressApp4/issues"
+  },
+  "homepage": "https://github.com/S035779/expressApp4#readme"
 }
